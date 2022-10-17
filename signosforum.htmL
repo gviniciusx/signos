@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forum programação  WEB signos</title>
+</head>
+<body>
+<div>
+  <h1 id="Titulo">Fórum programação Web -  SIGNOS </h1>
+</div>
+</body>
+</html>
+<head>
+<script>
+
+function astro()
+
+  {
+
+  var month,day;
+
+  var b = false;
+
+  var i=0;
+
+  var j=0;
+
+  while (b == false)
+
+    {
+
+      document.formsign.month[i].checked?b=true:i++ 
+
+    }
+
+  month = i+1;
+
+  while (b == true)
+
+    {
+
+      document.formsign.month[j].checked?b=false:j++
+
+    }
+
+  day = j+1;
+
+  if (month < 1 || month > 12)
+
+    {document.write("<h1>Mes invalido : " + month + "</h1><br>");}
+
+  if (day < 1 || day > 32)
+
+    {document.write("<h1>Dia Invalido : " + day + "</h1><br>");}
+
+  if ((month == 1 && day < 20) || (month == 12 && day >= 22))
+
+    {  document.write("<h1>Capricornio</h1> <h2>Nativos desse signo são coerentes, disciplinados, sérios e responsáveis. Além disso, desenvolvem desde cedo uma maturidade que surpreende a todos. Quem tem um acúmulo de planetas em Capricórnio signo pode ter um perfil workaholic. Estão sempre atentos aos seus deveres e, mais ainda, aos seus horários.</h2>");
+
+    }
+
+  if ((month == 2 && day < 19) || (month == 1 && day >= 22))
+
+    {  document.write("<h1>Aquarios</h1> <h2>Inovador, racional, rápido e imprevisível, ele ri da cara das regras e detesta a sensação de estar preso a algo, seja um lugar, um ideal ou uma situação. As pessoas que têm ascendente nesse signo costumam curtir um visual bem inesperado, e quanto mais chocadas as pessoas à sua volta, melhor</h2>");
+    }
+
+  if ((month == 3 && day < 21) || (month == 2 && day >= 24))
+
+    {  document.write("<h1>Peixes</h1> <h2>São pessoas sensíveis, sonhadoras, empáticas, pacientes, calmas, intuitivas, românticas, generosas, místicas e amáveis. “Captam toda a energia do ambiente como esponjas, o que os leva a sentir muitas coisas que não são suas.</h2>");
+
+    }
+
+  if ((month == 4 && day < 20) || (month == 3 && day >= 23))
+
+    {  document.write("<h1>Aries</h1> <h2>Sincerona, independente, competitiva e cheia de energia: se há uma pessoa de Áries por perto, não há desânimo que dure. Arianos amam ser o número 1 em tudo</h2>");
+
+    }
+
+  if ((month == 5 && day < 21) || (month == 4 && day >= 23))
+
+    {  document.write("<h1>Touro</h1> <h2>Taurinos amam conforto e sabem o que é bom nessa vida. Também são amigos fiéis e conseguem ser calmos e pragmáticos em momentos críticos. Touro é firmeza! Touro é o signo ligado à vida material e, por isso, podemos dizer que ele está relacionado ao seu dinheiro, à comida, posses, ao conforto e ao corpo</h2>");
+
+    }
+
+  if ((month == 6 && day < 22) || (month == 5 && day >= 23))
+
+    {  document.write("<h1>Gemeos</h1> <h2>Divertida e curiosa, a geminiana pode não ser a pessoa mais focada do mundo, mas com sua agilidade e criatividade ela se sai bem nas mais diversas situações. Gêmeos é um dos signos mais engraçados do zodíaco, graças ao seu raciocínio rápido e sua habilidade de enxergar as coisas de um ponto de vista mais leve.</h2>");
+
+    }
+
+  if ((month == 7 && day < 23) || (month == 6 && day >= 22))
+
+    {  document.write("<h1>Cancer</h1> <h2>Quem tem o signo de Câncer em posição marcante no mapa astral de nascimento, possui uma personalidade sensível, dócil, gentil e amorosa. Porém, o que dita seu humor é a lua, de acordo com suas fases. Os cancerianos também costumam ser apegados e devido a isto podem ser bastante resistentes às mudanças</h2>");
+
+    }
+
+  if ((month == 8 && day < 23) || (month == 7 && day >= 21))
+
+    {  document.write("<h1>Leao</h1> <h2>O signo de Leão pertence ao elemento Fogo, que basicamente, mostra muita determinação, volatilidade e animação. Quem experimenta toda essa energia tem muita coragem para enfrentar o que for, mas também se torna um pouco temperamental demais. Quanto à fama, são conhecidos como os mais vaidosos e exibidos do Zodíaco</h2>");
+
+    }
+
+  if ((month == 9 && day < 23) || (month == 8 && day >= 20))
+
+    {  document.write("<h1>Virgem</h1> <h2>As pessoas do signo de Virgem costumam ser inteligentes, detalhistas, metódicas, organizadas, discretas e perfeccionistas. Trabalham para ter segurança e estabilidade financeira. Como são regidas por Mercúrio, estão sempre em busca de conhecimento</h2>");
+
+    }
+
+  if ((month == 10 && day < 24) || (month == 9 && day >= 21))
+
+    {  document.write("<h1>Libra</h1> <h2>Os librianos fazem o melhor sempre e em casos de conflito como ser o mais justos possível. Além disso, eles analisam todas as opções apaixonado ter paz e harmonia. Librianos prezam pela felicidade dos que libriano rodeiam e muitas vezes se sacrificam para agradar a todos.</h2>");
+
+    }
+
+  if ((month == 11 && day < 22) || (month == 10 && day >= 19))
+
+    {  document.write("<h1>Escorpiao</h1> <h2>Os librianos fazem o melhor sempre e em casos de conflito como ser o mais justos possível. Além disso, eles analisam todas as opções apaixonado ter paz e harmonia. Librianos prezam pela felicidade dos que libriano rodeiam e muitas vezes se sacrificam para agradar a todos.</h2>");
+
+    }
+
+  if ((month == 12 && day < 22) || (month == 11 && day >= 20))
+
+    {  document.write("<h1>Sagitarios</h1> <h2>Positividade, bom humor e espontaneidade são características marcantes da personalidade sagitariana. Quem é de Sagitário costuma acreditar que tudo acontece por um motivo e que tudo tem solução. Encaram a vida com autoconfiança.</h2>");}
+
+  }
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0a2968" vlink="#000000" alink="#fa8f00" background="fundocortado.JPG">
+<h1 align="center">&nbsp;</h1>
+<br>
+<center>
+  <br>
+  <form name="formsign">
+    <table border=0 cellspacing=0  cellpadding=0>
+      <td> <font color=#0a2968 face="Arial"> 
+        <input type=radio name=month value="1">
+          <font color=" #993399">Janeiro<br>
+          <input type=radio name=month value="2">
+          Fevereiro<br>
+          <input type=radio name=month value="3">
+          Marco<br>
+          <input type=radio name=month value="4">
+          Abril <br>
+          <input type=radio name=month value="5">
+          Maio<br>
+          <input type=radio name=month value="6">
+          Junho <br>
+          <input type=radio name=month value="7">
+          Julho<br>
+          <input type=radio name=month value="8">
+          Agosto<br>
+          <input type=radio name=month value="9">
+          Setembro<br>
+          <input type=radio name=month value="10">
+          Outubro<br>
+          <input type=radio name=month value="11">
+          Novembro<br>
+          <input type=radio name=month value="12">
+          Dezembro</font> </font></td>
+      <td width=30>&nbsp;</td>
+      <td valign=top> 
+        <select name=day>
+          <option value="1">1 
+          <option value="2">2 
+          <option value="3">3 
+          <option value="4">4 
+          <option value="5">5 
+          <option value="6">6 
+          <option value="7">7 
+          <option value="8">8 
+          <option value="9">9 
+          <option value="10">10 
+          <option value="11">11 
+          <option value="12">12 
+          <option value="13">13 
+          <option value="14">14 
+          <option value="15">15 
+          <option value="16">16 
+          <option value="17">17 
+          <option value="18">18 
+          <option value="19">19 
+          <option value="20">20 
+          <option value="21">21 
+          <option value="22">22 
+          <option value="23">23 
+          <option value="24">24 
+          <option value="25">25 
+          <option value="26">26 
+          <option value="27">27 
+          <option value="28">28 
+          <option value="29">29 
+          <option value="30">30 
+          <option value="31">31 
+        </select>
+        <p> 
+          <input type="button" value=" Descobrir Signo" onClick="astro()" name="button">
+      </td>
+    </table>
+  </form>
+  <center>
+    <br>
+    <center>
+      <b> </b> 
+    </center>
+  </center>
+</center>
+
+</body>
+</html>
